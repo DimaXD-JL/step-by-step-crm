@@ -12,9 +12,16 @@
   height: 100vh;
   background-color: #00dddd;
 }
-.example-sidenav {
+.sidenav {
   width: 200px;
   padding: 20px;
   text-align: center;
   background-color: #058686;
+}
+.logo-container {
+  border-bottom: 1px solid white;
+}
+.menu-icon {
+  cursor: pointer;
+  color: white;
 }

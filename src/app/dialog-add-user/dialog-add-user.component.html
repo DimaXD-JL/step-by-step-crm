@@ -1,11 +1,19 @@
 <h2 mat-dialog-title>Add User</h2>
+
 <mat-dialog-content>
-  <p>What's your favorite animal?</p>
-  <mat-form-field>
-    <mat-label>Favorite Animal</mat-label>
-    <input matInput />
-  </mat-form-field>
+  <div>
+    <p>Hier User Hinzufügen</p>
+    <mat-form-field class="mr-16" appearance="outline" color="accent">
+      <mat-label>First Name</mat-label>
+      <input matInput />
+    </mat-form-field>
+    <mat-form-field appearance="outline" color="accent">
+      <mat-label>Last Name</mat-label>
+      <input matInput />
+    </mat-form-field>
+  </div>
 </mat-dialog-content>
+
 <mat-dialog-actions>
   <button mat-button>Cancel</button>
   <button mat-button cdkFocusInitial>Save</button>

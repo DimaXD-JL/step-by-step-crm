@@ -6,10 +6,25 @@
     <mat-form-field class="mr-16" appearance="outline" color="accent">
       <mat-label>First Name</mat-label>
       <input matInput />
+      <mat-hint>Pleace enter you Name</mat-hint>
     </mat-form-field>
     <mat-form-field appearance="outline" color="accent">
       <mat-label>Last Name</mat-label>
       <input matInput />
+      <mat-hint>Pleace enter your last Name</mat-hint>
+    </mat-form-field>
+  </div>
+
+  <div class="mt-16">
+    <mat-form-field class="mr-16" appearance="outline" color="accent">
+      <mat-label>Choose a date</mat-label>
+      <input matInput [matDatepicker]="picker" type="text" />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
   </div>
 </mat-dialog-content>

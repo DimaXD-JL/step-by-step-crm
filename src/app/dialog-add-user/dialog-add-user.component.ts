@@ -8,8 +8,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDatepicker } from '@angular/material/datepicker';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatNativeDateModule } from '@angular/material/core';
 
 @Component({
   selector: 'app-dialog-add-user',
@@ -22,8 +22,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     FormsModule,
     MatInputModule,
     MatFormFieldModule,
+    MatDatepicker,
     MatDatepickerModule,
-    MatNativeDateModule,
   ],
   templateUrl: './dialog-add-user.component.html',
   styleUrl: './dialog-add-user.component.scss',
